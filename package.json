@@ -1,0 +1,31 @@
+{
+  "name": "research-agent-starter",
+  "version": "1.0.0",
+  "description": "MCP-Powered AI Research Agent Starter - Learn how to chain research MCPs for comprehensive analysis",
+  "main": "src/agent.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/agent.js",
+    "example:academic": "node examples/academic-research.js",
+    "example:university": "node examples/university-research.js",
+    "example:healthcare": "node examples/healthcare-compliance.js",
+    "example:tech-scouting": "node examples/tech-scouting.js"
+  },
+  "keywords": [
+    "apify",
+    "mcp",
+    "ai-agent",
+    "research",
+    "academic",
+    "healthcare",
+    "patents"
+  ],
+  "author": "red-cars-io",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "apify": "^3.1.0"
+  }
+}
